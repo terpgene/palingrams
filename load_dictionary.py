@@ -23,7 +23,3 @@ def load(file):
     except IOError as error:
         print(f"{error}\nError opening {file}. Terminating program.", file=sys.stderr)
         sys.exit(1)
-
-
-if __name__ == '__main__':
-    load("words.txt")
